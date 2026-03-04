@@ -1,0 +1,7 @@
+# Won't Work
+# can only specify in role-binding directly
+kind: User
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: apache-user-only
+  namespace: apache
